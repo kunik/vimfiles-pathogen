@@ -4,6 +4,9 @@ set backspace=indent,eol,start
 "find the next match as we type the search
 set incsearch
 
+"ignore case while searching by default
+set ignorecase smartcase
+
 "explorer mappings
 nnoremap <f1> :BufExplorer<cr>
 nnoremap <f2> :NERDTreeToggle<cr>
@@ -39,7 +42,6 @@ map <Leader>8 :tabnext 8<CR>
 map <Leader>9 :tabnext 9<CR>
 
 map <Leader>t :tabnew<CR>
-map <Leader>n :NERDTreeToggle<CR>
 
 nnoremap <silent> <Leader>l ml:execute 'match Search /\%'.line('.').'l/'<CR>
 
