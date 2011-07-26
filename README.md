@@ -1,33 +1,26 @@
-This is my ~/.vim dir and _this_, dear reader, is a horse:
-
-                   ,
-                  / \,,_  .'|
-               ,{{| /}}}}/_.'
-              }}}}` '{{'  '.
-            {{{{{    _   ;, \
-         ,}}}}}}    /o`\  ` ;)
-        {{{{{{   /           (
-        }}}}}}   |            \
-       {{{{{{{{   \            \          ,-------------------------------.
-       }}}}}}}}}   '.__      _  |        /       HI                        \
-       {{{{{{{{       /`._  (_\ /       /      /   \                        |
-        }}}}}}'      |    //___/   --= <   VVVI     HI-HI-HI                |
-    jgs `{{{{`       |     '--'         \                   \               |
-         }}}`                            \                  HIM-HIM-HIM!!!  /
-                                          '--------------------------------'
+This is my personal remake of .vim* files by [scrooloose](https://github.com/scrooloose/vimfiles)
 
 Installation
 ============
 
 Clone the repo:
-`git clone https://github.com/scrooloose/vimfiles.git ~/.vim`
+
+    git clone git://github.com/kunik/vimfiles.git ~/.vim
 
 Grab the plugin submodules:
-`cd ~/.vim && git submodule init && git submodule update`
 
+    git submodule update --init --recursive
 
-Make sure vim finds the vimrc file by either symlinking it:
-`ln -s ~/.vim/vimrc ~/.vimrc`
+Make sure vim finds the vimrc and gvimrc files by either symlinking it:
 
-or by sourcing it from  your own ~/.vimrc:
-`source ~/.vim/vimrc`
+    ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/gvimrc ~/.gvimrc
+
+or by sourcing it from  your own ~/.{gv,v}imrc:
+In .vimrc:
+
+    source ~/.vim/vimrc
+
+in .gvimrc:
+
+    source ~/.vim/vimrc
