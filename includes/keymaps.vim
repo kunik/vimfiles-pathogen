@@ -10,7 +10,7 @@ set ignorecase smartcase
 "explorer mappings
 nnoremap <f1> :BufExplorer<cr>
 nnoremap <f2> :NERDTreeToggle<cr>
-nnoremap <f3> :TlistToggle<cr>
+nnoremap <f3> :TagbarToggle<cr>
 
 "make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>

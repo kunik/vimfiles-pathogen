@@ -6,7 +6,7 @@ set guioptions-=T
 
 "GVim mappings
 map <D-/> <Leader>c<Space><CR>
-map <silent> <D-M> :TlistToggle<CR>
+map <silent> <D-M> :TagbarToggle<CR>
 map <silent> <D-N> :NERDTreeToggle<CR>
 map <silent> <D-r> :call ReformatContents()<CR>
 
