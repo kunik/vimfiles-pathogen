@@ -24,3 +24,7 @@ In .vimrc:
 in .gvimrc:
 
     source ~/.vim/vimrc
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kunik/vimfiles-pathogen/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
